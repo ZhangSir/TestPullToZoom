@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp" 
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/tv_practice3_list_item_header_time"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:layout_below="@+id/rlayout_practice3_list_item_header"
+            android:background="@color/common_bg"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/common_text_light"
+            android:textSize="@dimen/sp_12"
+            android:visibility="visible" />
+        
+        <RelativeLayout
+            android:id="@+id/rlayout_practice3_list_item_header"
+            android:layout_width="match_parent"
+            android:layout_height="160dp" >
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_alignParentBottom="true" >
+                
+                <View 
+                    android:id="@+id/v_practice3_list_item_header"
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="112dp"
+                    android:background="@color/light_gray"/>
+                
+                <LinearLayout 
+                    android:id="@+id/llayout_practice3_list_item_header_range"
+                    android:layout_width="match_parent"
+                	android:layout_height="match_parent"
+                	android:layout_toRightOf="@id/v_practice3_list_item_header"
+                	android:gravity="center_vertical"
+                	android:paddingLeft="8dp"
+                	android:paddingRight="8dp"
+                	android:paddingTop="4dp"
+                	android:paddingBottom="4dp"
+                	android:orientation="vertical">
+                    <TextView 
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:ellipsize="end"
+			            android:singleLine="true"
+			            android:text="练习范围设置"
+			            android:textColor="@color/blue"
+			            android:textSize="@dimen/sp_12"/>
+                    <TextView 
+	                    android:id="@+id/tv_practice3_list_item_header_range"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:ellipsize="end"
+			            android:maxLines="2"
+			            android:textColor="@color/common_text_light"
+			            android:textSize="@dimen/sp_12"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="112dp" >
+
+<!--                 <ImageView -->
+<!--                     android:id="@+id/iv_practice3_list_item_header" -->
+<!--                     android:layout_width="match_parent" -->
+<!--                     android:layout_height="96dp" -->
+<!--                     android:contentDescription="@null" -->
+<!--                     android:scaleType="centerCrop" -->
+<!--                     android:src="@drawable/practice_top_bg" /> -->
+
+                <ImageButton
+                    android:id="@+id/ibtn_practice3_list_item_header_set"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="96dp"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/btn_practice_set_selector" />
+            </RelativeLayout>
+            
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/ibtn_practice3_list_item_header_start"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="40dp"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/btn_practice_start_selector" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestPullToZoom</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_pull_to_zoom_scroll">PullToZoomScrollActivity</string>
+    <string name="title_activity_pull_to_zoom_view">PullToZoomViewActivity</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

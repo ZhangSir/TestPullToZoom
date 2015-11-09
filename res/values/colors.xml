@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="green_drawable">#ed4135</drawable>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="black_overlay_deep">#aa000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="no_color">#00000000</color>
+    <color name="no_select">#00000000</color>
+    <color name="no_select_white">#ffffff</color>
+    <color name="selected">#7754a7ee</color>
+    <color name="item_no_select">#00000000</color>
+    <color name="item_no_select_white">#ffffffff</color>
+    <color name="item_selected">#7754a7ee</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- 通用背景色 -->
+    <color name="common_bg">#f6f6f6</color>
+    <color name="common_bg_dark">#eaeaea</color>
+    <color name="common_text_dark">#000000</color>
+    <color name="common_text_light">#808080</color>
+    <color name="common_line">#868686</color>
+    <color name="common_line_list">#cfcfcf</color>
+    <color name="nav_bg">#6892ce</color>
+    <color name="nav_bg_dark">#4670ac</color>
+    
+    <color name="main_tab_text">#1cb3df</color>
+    
+    <!-- 练习解析蓝色 -->
+<color name="practice_blue">#37b9f5</color>
+    <!-- 登陆页面的背景色 -->
+    <color name="login_bg">#E7F2F4</color>
+    <!-- 浅黑色 -->
+    <color name="light_black">#444444</color>
+    <!-- 灰色 -->
+    <color name="gray">#808080</color>
+    <!-- 暗灰色 -->
+    <color name="dark_gray">#A9A9A9</color>
+    <!-- 浅灰色 -->
+    <color name="light_gray">#D3D3D3</color>
+    <!-- 灰色背景 -->
+    <color name="gray_bg">#eeeeee</color>
+
+    <!-- 橘黄色 -->
+    <color name="orange">#ffab25</color>
+
+    <!-- 绿色 -->
+    <color name="green">#9CCBA7</color>
+
+    <!-- 蓝色 -->
+    <color name="blue">#73A7F0</color>
+
+    <!-- 淡蓝色 -->
+    <color name="light_blue">#73A7F0</color>
+    
+    <color name="light_blue2">#DEF0FA</color>
+
+    <!-- 蓝色-半透 -->
+    <color name="blue_transparent">#6673A7F0</color>
+
+    <!-- 红色 -->
+    <color name="red">#f0654e</color>
+
+    <!-- 黄色 -->
+    <color name="yellow">#FFB000</color>
+    <color name="whiteT">#88d6e9f8</color>
+    <color name="grayT">#883a515f</color>
+    <color name="pink">#ff33ff</color>
+    <color name="deep_blue">#0000ff</color>
+
+</resources>

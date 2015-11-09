@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.test.pulltozoom.view.PullToZoomListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:isHeaderParallax="false"
+        custom:headerView="@layout/layout_practice3_list_item_header"
+        custom:zoomView="@layout/list_head_zoom_view" />
+
+</RelativeLayout>
